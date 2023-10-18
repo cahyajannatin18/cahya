@@ -1,0 +1,238 @@
+.body {
+    max-width: 1360px;
+}
+#headeratas {
+    background-color: #f0e8ed;
+    width: 100%;
+}  
+
+#headeratas a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#container1{
+    font : 'Quicksand';
+    color: rgb(19, 9, 15);
+    background-image:url(photo.jpeg);
+    background-size: cover;
+    background-position: auto;
+    opacity: 0.8;
+    height: 500px;
+    padding-top: 230px;
+    max-width: 1360px;
+}
+.col-md-8{
+    font-size: 15px;
+    margin-left: 185px;
+    padding-top: 50px;
+    
+}
+
+.jumbotron {
+    background-color:  #e7e5e6;
+    background-size: cover;
+}
+
+#isibio {
+    color: #36486b;
+}
+
+#ket1 {
+    margin:auto;
+    width: 300px;
+}
+
+#ket2 {
+    margin:auto;
+    width: 280px;
+    padding-right: 30px;
+}
+.rounded-circle{
+    margin-bottom: 60px;
+    margin-left: 120px;
+    width: 170px;
+}
+
+#logoIPPNU{
+    width: 130px;
+    margin: auto;
+}
+
+#logoosis{
+    width: 145px;
+    height: 135px;
+    margin-right: auto;  
+}
+
+#container2 {
+    padding-top: 50px;
+    background-color: #e4dcd9;
+    background-size: cover;
+    max-width: 1360px;
+}
+#ketorganisasi{
+    font-size:  17px;
+    width: auto;
+    margin: auto;
+}
+#button{
+    margin-top: 10px;
+    background-color: #eee4eb;
+}
+
+#row1 {
+    margin: auto;
+    background-size: cover;
+}
+
+#row3 {
+
+}
+
+#riwayatorganisasi {
+    text-align: center;
+    margin: auto;
+    background-color: #d83687;
+    background-size: cover;
+}
+#sosmed {
+    margin: auto;
+    width: 20rem;
+}
+
+#twt{
+    padding-bottom: 30px;
+}
+
+#kontakperson {
+   width: 500px;
+   margin: auto;
+   background-color: #fdfcf9;
+}
+
+#KritikSaran{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+#exampleInputEmail1{
+    border-color: rgb(139, 4, 83);
+}
+#emailHelp {
+    color : black;
+}
+
+#submit {
+    margin-bottom: 10px;
+    border-color: black;
+}
+.col-md-3 {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #a00754;
+    color: #fff;
+    height:230px;
+  }
+  
+.footer-logo {
+    float: left;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    size: 15px;
+  }
+  #Website{
+    float: bottom;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-list {
+    padding-top: 10px;
+    float: right;
+  }
+@media (max-width: 1000px) {
+    /* Tambahkan css untuk lesson */
+    #hubungisaya {
+        width: auto;
+    }
+    
+    .col-md-8 {
+        width: 100%;
+        text-align: left;
+        margin: auto;
+    }
+
+    .body{
+        max-width: 100%;
+    }
+
+    .jumbotron{
+        width: auto;
+		float: none;
+    }
+
+	#ketorganisasi{
+		width: auto;
+		float: none;
+        padding: auto;
+        margin: auto;
+	}
+}
+
+@media screen and (max-width:576px){
+     .body {
+        max-width: 100%;
+    }
+    #hubungisaya {
+        width: auto;
+    }
+
+    .jumbotron{
+        width: auto;
+		float: none;
+    }
+
+	#ketorganisasi{
+		width: auto;
+		float: none;
+        font-size: 13px;
+        padding: auto;
+        margin-left: -10px;
+	}
+
+
+    #logoosis, #logohmps {
+        width: 75px;
+        margin: auto; 
+    }
+
+    #logoosis {
+        height: 68px;
+    }
+
+    #kontakperson {
+        width: 50%;
+    }
+
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+
+    #KritikSaran{
+        margin-left: -50px;
+    }
+
+    #exampleInputEmail1 {
+        width: 50%;
+        margin: auto;
+    }
+    .footer{
+        height: 300px;
+    }
+}
